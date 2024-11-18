@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 # Função para processar o arquivo meteorológico
 def processar_arquivo_meteorologico(caminho_arquivo):
@@ -23,7 +24,7 @@ def processar_arquivo_meteorologico(caminho_arquivo):
     
     # Converter colunas numéricas
     for coluna in df.columns[2:]:
-        df[coluna] = pd.to_numeric(df[coluna].str.replace(',', '.'), errors='coerce')
+        df[coluna] = pd.to_numeric(df[coluna].str.replace(',', '.'), errors='coerce').fillna(0)
     
     # Agrupamento por dia
     df['Data'] = pd.to_datetime(df['Data'], format='%Y/%m/%d')
@@ -49,14 +50,32 @@ def processar_arquivo_meteorologico(caminho_arquivo):
     
     return metadados, estatisticas_diarias
 
-# Caminho do arquivo de exemplo
-caminho = 'data/INMET_S_PR_A874_SAO MATEUS DO SUL_01-01-2023_A_31-12-2023.CSV'
-metadados, estatisticas_diarias = processar_arquivo_meteorologico(caminho)
+# Função para salvar os dados em JSON
+def salvar_como_json(nome_cidade, dados, metadados, caminho_json):
+    json_data = []
+    for _, row in dados.iterrows():
+        entrada = {
+            "Data": row["Data"].strftime('%Y-%m-%d'),
+            "Metadados": metadados,
+            "Dados": row.to_dict()
+        }
+        entrada["Dados"].pop("Data", None)  # Remover redundância de data no nível dos dados
+        json_data.append(entrada)
+    
+    # Salvar em arquivo JSON
+    with open(caminho_json, 'w', encoding='utf-8') as json_file:
+        json.dump(json_data, json_file, ensure_ascii=False, indent=4)
+    print(f"JSON gerado para {nome_cidade}: {caminho_json}")
 
-# Exibir dados dos dois primeiros dias no formato solicitado
-for i in range(2):  # Exibir apenas os dois primeiros dias
-    dia = estatisticas_diarias.iloc[i, 0].strftime('%d-%m-%Y')
-    print(f"dia:{dia}")
-    print("dados")
-    print(estatisticas_diarias.iloc[i, 1:])
-    print()
+# Processar os dados de cada cidade
+arquivos_cidades = {
+    "Farroupilha": "data/INMET_S_RS_A840_BENTO GONCALVES_01-01-2023_A_31-12-2023.CSV",
+    "Lages": "data/INMET_S_SC_A865_LAGES_01-01-2023_A_31-12-2023.CSV",
+    "São Mateus do Sul": "data/INMET_S_PR_A874_SAO MATEUS DO SUL_01-01-2023_A_31-12-2023.CSV"
+}
+
+# Iterar sobre os arquivos e processar
+for cidade, caminho in arquivos_cidades.items():
+    metadados, estatisticas_diarias = processar_arquivo_meteorologico(caminho)
+    caminho_json = f"{cidade.replace(' ', '_').lower()}_dados.json"
+    salvar_como_json(cidade, estatisticas_diarias, metadados, caminho_json)
