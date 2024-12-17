@@ -75,7 +75,7 @@ def save_json(city, extracted_attributes):
         json_data.append(current_attribute)
 
     # Salva dados em formato JSON
-    json_path = f'{city.replace(" ", "_").lower()}_15_dias.json'
+    json_path = f'dataset_json/{city.replace(" ", "_").lower()}_15_dias.json'
     with open(json_path, 'w') as json_file:
         json.dump(json_data, json_file, ensure_ascii=False, indent=4)
     print(f"JSON para {city} gerado em {json_path}")

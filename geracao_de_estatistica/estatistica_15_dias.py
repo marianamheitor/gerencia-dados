@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 def plot_weather(city):
-    with open(f'{city.replace(" ", "_").lower()}_15_dias.json') as json_file:
+    with open(f'../dataset_json/{city.replace(" ", "_").lower()}_15_dias.json') as json_file:
         json_data = json.load(json_file)
 
     columns = []
