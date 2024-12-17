@@ -1,0 +1,171 @@
+[
+    {
+        "Nome da cidade": "Lages",
+        "URL": "https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/382"
+    },
+    {
+        "Data": "16",
+        "Temperatura Mínima": "14°",
+        "Temperatura Máxima": "20°",
+        "Total de Precipitação": "3.9mm",
+        "Chance de Precipitação": "90%",
+        "Direção do Vento": "WSW",
+        "Velocidade do Vento": "16km/h",
+        "Umidade Mínima": "71%",
+        "Umidade Máxima": "93%"
+    },
+    {
+        "Data": "17",
+        "Temperatura Mínima": "12°",
+        "Temperatura Máxima": "23°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "SSW",
+        "Velocidade do Vento": "7km/h",
+        "Umidade Mínima": "48%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "18",
+        "Temperatura Mínima": "12°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "11km/h",
+        "Umidade Mínima": "54%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "19",
+        "Temperatura Mínima": "16°",
+        "Temperatura Máxima": "22°",
+        "Total de Precipitação": "2.5mm",
+        "Chance de Precipitação": "70%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "11km/h",
+        "Umidade Mínima": "65%",
+        "Umidade Máxima": "95%"
+    },
+    {
+        "Data": "20",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "23°",
+        "Total de Precipitação": "37.4mm",
+        "Chance de Precipitação": "90%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "13km/h",
+        "Umidade Mínima": "80%",
+        "Umidade Máxima": "98%"
+    },
+    {
+        "Data": "21",
+        "Temperatura Mínima": "18°",
+        "Temperatura Máxima": "27°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "SW",
+        "Velocidade do Vento": "9km/h",
+        "Umidade Mínima": "53%",
+        "Umidade Máxima": "99%"
+    },
+    {
+        "Data": "22",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "26°",
+        "Total de Precipitação": "0.6mm",
+        "Chance de Precipitação": "61%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "10km/h",
+        "Umidade Mínima": "63%",
+        "Umidade Máxima": "98%"
+    },
+    {
+        "Data": "23",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "26°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "5km/h",
+        "Umidade Mínima": "57%",
+        "Umidade Máxima": "85%"
+    },
+    {
+        "Data": "24",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "22°",
+        "Total de Precipitação": "10.8mm",
+        "Chance de Precipitação": "75%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "3km/h",
+        "Umidade Mínima": "71%",
+        "Umidade Máxima": "90%"
+    },
+    {
+        "Data": "25",
+        "Temperatura Mínima": "15°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "8.6mm",
+        "Chance de Precipitação": "60%",
+        "Direção do Vento": "E",
+        "Velocidade do Vento": "4km/h",
+        "Umidade Mínima": "74%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "26",
+        "Temperatura Mínima": "13°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "ENE",
+        "Velocidade do Vento": "9km/h",
+        "Umidade Mínima": "80%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "27",
+        "Temperatura Mínima": "11°",
+        "Temperatura Máxima": "23°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "ENE",
+        "Velocidade do Vento": "8km/h",
+        "Umidade Mínima": "79%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "28",
+        "Temperatura Mínima": "11°",
+        "Temperatura Máxima": "23°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "ENE",
+        "Velocidade do Vento": "4km/h",
+        "Umidade Mínima": "59%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "29",
+        "Temperatura Mínima": "12°",
+        "Temperatura Máxima": "21°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "W",
+        "Velocidade do Vento": "3km/h",
+        "Umidade Mínima": "70%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "30",
+        "Temperatura Mínima": "11°",
+        "Temperatura Máxima": "21°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "ENE",
+        "Velocidade do Vento": "3km/h",
+        "Umidade Mínima": "84%",
+        "Umidade Máxima": "100%"
+    }
+]

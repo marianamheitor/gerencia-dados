@@ -1,0 +1,171 @@
+[
+    {
+        "Nome da cidade": "Farroupilha",
+        "URL": "https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/356"
+    },
+    {
+        "Data": "16",
+        "Temperatura Mínima": "14°",
+        "Temperatura Máxima": "19°",
+        "Total de Precipitação": "29.6mm",
+        "Chance de Precipitação": "97%",
+        "Direção do Vento": "WSW",
+        "Velocidade do Vento": "13km/h",
+        "Umidade Mínima": "86%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "17",
+        "Temperatura Mínima": "14°",
+        "Temperatura Máxima": "23°",
+        "Total de Precipitação": "1.5mm",
+        "Chance de Precipitação": "74%",
+        "Direção do Vento": "S",
+        "Velocidade do Vento": "10km/h",
+        "Umidade Mínima": "51%",
+        "Umidade Máxima": "99%"
+    },
+    {
+        "Data": "18",
+        "Temperatura Mínima": "13°",
+        "Temperatura Máxima": "27°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "NNE",
+        "Velocidade do Vento": "9km/h",
+        "Umidade Mínima": "48%",
+        "Umidade Máxima": "95%"
+    },
+    {
+        "Data": "19",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "5.2mm",
+        "Chance de Precipitação": "81%",
+        "Direção do Vento": "N",
+        "Velocidade do Vento": "14km/h",
+        "Umidade Mínima": "67%",
+        "Umidade Máxima": "94%"
+    },
+    {
+        "Data": "20",
+        "Temperatura Mínima": "17°",
+        "Temperatura Máxima": "27°",
+        "Total de Precipitação": "2.7mm",
+        "Chance de Precipitação": "75%",
+        "Direção do Vento": "NNE",
+        "Velocidade do Vento": "8km/h",
+        "Umidade Mínima": "68%",
+        "Umidade Máxima": "93%"
+    },
+    {
+        "Data": "21",
+        "Temperatura Mínima": "18°",
+        "Temperatura Máxima": "25°",
+        "Total de Precipitação": "2.1mm",
+        "Chance de Precipitação": "64%",
+        "Direção do Vento": "S/SSE",
+        "Velocidade do Vento": "12km/h",
+        "Umidade Mínima": "68%",
+        "Umidade Máxima": "99%"
+    },
+    {
+        "Data": "22",
+        "Temperatura Mínima": "18°",
+        "Temperatura Máxima": "25°",
+        "Total de Precipitação": "2.0mm",
+        "Chance de Precipitação": "63%",
+        "Direção do Vento": "ESE",
+        "Velocidade do Vento": "10km/h",
+        "Umidade Mínima": "69%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "23",
+        "Temperatura Mínima": "19°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "10.6mm",
+        "Chance de Precipitação": "59%",
+        "Direção do Vento": "ENE",
+        "Velocidade do Vento": "5km/h",
+        "Umidade Mínima": "63%",
+        "Umidade Máxima": "93%"
+    },
+    {
+        "Data": "24",
+        "Temperatura Mínima": "18°",
+        "Temperatura Máxima": "20°",
+        "Total de Precipitação": "24.6mm",
+        "Chance de Precipitação": "72%",
+        "Direção do Vento": "SSE",
+        "Velocidade do Vento": "5km/h",
+        "Umidade Mínima": "81%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "25",
+        "Temperatura Mínima": "15°",
+        "Temperatura Máxima": "21°",
+        "Total de Precipitação": "4.1mm",
+        "Chance de Precipitação": "72%",
+        "Direção do Vento": "SE",
+        "Velocidade do Vento": "7km/h",
+        "Umidade Mínima": "98%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "26",
+        "Temperatura Mínima": "14°",
+        "Temperatura Máxima": "18°",
+        "Total de Precipitação": "7.4mm",
+        "Chance de Precipitação": "71%",
+        "Direção do Vento": "E",
+        "Velocidade do Vento": "6km/h",
+        "Umidade Mínima": "100%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "27",
+        "Temperatura Mínima": "13°",
+        "Temperatura Máxima": "20°",
+        "Total de Precipitação": "0.6mm",
+        "Chance de Precipitação": "68%",
+        "Direção do Vento": "ESE",
+        "Velocidade do Vento": "6km/h",
+        "Umidade Mínima": "86%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "28",
+        "Temperatura Mínima": "12°",
+        "Temperatura Máxima": "22°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "SE",
+        "Velocidade do Vento": "3km/h",
+        "Umidade Mínima": "59%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "29",
+        "Temperatura Mínima": "12°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "W",
+        "Velocidade do Vento": "3km/h",
+        "Umidade Mínima": "48%",
+        "Umidade Máxima": "100%"
+    },
+    {
+        "Data": "30",
+        "Temperatura Mínima": "13°",
+        "Temperatura Máxima": "24°",
+        "Total de Precipitação": "0.0mm",
+        "Chance de Precipitação": "0%",
+        "Direção do Vento": "NE",
+        "Velocidade do Vento": "4km/h",
+        "Umidade Mínima": "76%",
+        "Umidade Máxima": "100%"
+    }
+]
